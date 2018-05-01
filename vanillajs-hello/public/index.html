@@ -1,14 +1,55 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Hello Rigo with Vanilla.js</title>
-        <link rel="shortcut icon" href="asset/img/4geeks.ico"></head>
-    <body>
-        <div class="container-fluid text-center">
-            <h1 class="mt-5">Hello Rigo!</h1>
-            <img src="asset/img/rigo-baby.jpg"></img>
-            <p class="error alert alert-danger">If you can see this, you probable have an error (maybe open the inspector?)</p>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <title>Hello, world!</title>
+  </head>
+  <body style="background-color:green;">
+    <div class="container">
+        <!--<span class ="border border-dark">-->
+        <div class="card mx-auto rounded" style="width: 22rem; height: 400px; position:absolute ">
+          <div class="card-body">
+            <div class = "row ">
+              <div class = "col-2">
+                <h2 class="numbera float-left-number">2</h2>
+            <div class= "row">
+              <div class= "col-2">
+                <h2 class="suita left-symbol">&#9824</h2>
+              </div>
+            </div>
+              </div>  
+            </div>
+            <div class= "row">
+              <div class = "col-2">
+                <div style="position: absolute; font-size:120px;"class="suitb center-symbol">&#9824</div>
+              </div>
+            </div>
+            <div class = "row">
+              <div class = "col-2">
+                <h2 class="numberb float-right-number">2</h2>
+            <div class= "row"> 
+              <div class= "col-2">
+                <h2 class= "suitc float-right-symbol">&#9824</h2>
+              </div>
+            </div>
+            </div>
+          </div>
         </div>
-        <script type="text/javascript" src="bundle/bundle.js"></script></body>
+        <div class = "button mt-3 " style="width: 275px;">
+            <button id= "daButton" type="button" class="btn btn-danger btn-lg center">Generate New Card </button>
+        </div>
+        <!--</span>-->
+    </div>    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="bundle/bundle.js"></script>
+  </body>
 </html>
