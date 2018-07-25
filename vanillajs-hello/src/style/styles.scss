@@ -1,0 +1,112 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;  
+    width:300px;
+}
+
+.card {
+    width: 300px;
+    height: 440px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    position:relative;
+    
+}
+    
+.card p {
+    font: 150px/440px Times New Roman, serif;
+    text-align: center;
+}
+
+body {
+    background-color: green;
+    display: block;
+    margin: 8px;
+}
+
+div {
+      display: block;
+}
+
+div.suit-hearts:before {
+    content: "\2665";
+    font-size:90px;
+    position: absolute;
+    top:10px;
+    left:10px;
+    color: red;
+}
+
+div.suit-hearts:after {
+    content: "\2665";
+    font-size: 90px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: red;
+    transform: rotate(180deg);
+}
+
+div.suit-diamonds:before {
+    content: "\2666";
+    font-size: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: red;
+}
+
+div.suit-diamonds:after {
+    content: "\2666";
+    font-size: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: red;
+    transform: rotate(180deg);
+}
+
+div.suit-spades:before {
+    content: "\2660";
+    font-size: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+}
+
+
+div.suit-spades:after {
+    content: "\2660";
+    font-size: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+    transform: rotate(180deg);
+}
+
+
+div.suit-clubs:before {
+    content: "\2663";
+    font-size: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+}
+
+div.suit-clubs:after {
+    content: "\2663";
+    font-size: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+    transform: rotate(180deg);
+
+}
